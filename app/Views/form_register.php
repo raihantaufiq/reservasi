@@ -56,24 +56,14 @@
               <label for="no_ruang" class="form-label">Ruangan</label>
               <select name="no_ruang" class="form-select" id="no_ruang">
                 <option value="1">Ruang Utama (1)</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
               </select>
             </div>
             <div class="col-12">
               <label for="tanggal" class="form-label">Tanggal</label>
               <!-- Date Picker -->
-              <input name="tanggal" type="date" class="form-control" id="tanggal">
+              <input name="tanggal" type="date" class="form-control datepicker" id="tanggal">
               <script>
-                flatpickr("#tanggal", {
-                  dateFormat: "Y-m-d",
-                    disable: [
-                    function(date) {
-                      // Return true to disable date
-                      return (date.getDay() === 0 || date.getDay() === 6); 
-                    }
-                  ]
-                });
+                
               </script>
             </div>
             <div class="col-md-6">

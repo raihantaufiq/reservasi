@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 09, 2025 at 10:51 AM
+-- Generation Time: Dec 09, 2025 at 11:53 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.29
 
@@ -35,6 +35,16 @@ CREATE TABLE `jadwal` (
   `waktu_mulai` time NOT NULL,
   `waktu_selesai` time NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `jadwal`
+--
+
+INSERT INTO `jadwal` (`id_jadwal`, `id_user`, `no_ruang`, `tanggal`, `waktu_mulai`, `waktu_selesai`) VALUES
+(11, '12345', '1', '2025-12-11', '12:00:00', '12:30:00'),
+(12, '12345', '1', '2025-12-13', '08:00:00', '12:00:00'),
+(13, '12345', '1', '2025-12-07', '08:00:00', '09:00:00'),
+(14, '11111', '1', '2025-12-08', '12:00:00', '15:00:00');
 
 -- --------------------------------------------------------
 
@@ -71,6 +81,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id_user`, `password`, `nama`) VALUES
+('11111', '$2y$10$Kk13vPxYBK9Y5d92nQL9DORBVqnvOlwuzXIWZYM6HjjDZYmxh.4/W', 'Denis'),
 ('12345', '$2y$10$Kk13vPxYBK9Y5d92nQL9DORBVqnvOlwuzXIWZYM6HjjDZYmxh.4/W', 'Adit');
 
 --
@@ -105,7 +116,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `jadwal`
 --
 ALTER TABLE `jadwal`
-  MODIFY `id_jadwal` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_jadwal` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- Constraints for dumped tables

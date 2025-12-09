@@ -5,8 +5,6 @@ namespace App\Controllers;
 use App\Models\UserModel;
 use App\Models\RuangModel;
 use App\Models\JadwalModel;
-use CodeIgniter\Database\RawSql;
-use CodeIgniter\I18n\Time;
 
 class Register extends BaseController
 {
@@ -56,7 +54,7 @@ class Register extends BaseController
             session()->setFlashdata('error', $this->validator->listErrors());
             return redirect()->back()->withInput();
         }
-       
+    
         $this->jadwalmodel->save([
             'id_user' => session()->get('id_user'),
             'no_ruang' => $this->request->getVar('no_ruang'),

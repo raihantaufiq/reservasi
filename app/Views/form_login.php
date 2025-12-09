@@ -33,11 +33,12 @@
                     <label for="password">Password</label>
                 </div>
                 <button name="login" id="login" class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
-                <hr class="my-4">
-                <small class="text-muted">Belum punya akun? <a href="<?= base_url();?>/register/index">klik disini</a> untuk buat akun baru</small>
             </form>
         </div>
+        <p>Akun1 = iduser: 12345, password: plain</p>
+        <p>Akun2 = iduser: 11111, password: plain</p>
     </div>
+    
   
 </main>
 

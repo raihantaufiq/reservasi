@@ -8,7 +8,7 @@ class JadwalModel extends Model
 {
   protected $table = 'jadwal';
   protected $primaryKey = 'id_jadwal';
-  protected $allowedFields = ['id_user', 'no_ruang', 'waktu_mulai', 'waktu_selesai'];
+  protected $allowedFields = ['id_user', 'no_ruang', 'tanggal', 'waktu_mulai', 'waktu_selesai'];
 
   public function getJadwal($id_jadwal = false)
   {
