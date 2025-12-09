@@ -1,0 +1,152 @@
+CRITICAL - 2022-06-14 08:55:41 --> Undefined variable: data
+in APPPATH\Controllers\Profile.php on line 25.
+ 1 APPPATH\Controllers\Profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Profile.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 08:56:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\profile.php on line 35.
+ 1 APPPATH\Views\profile.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\profile.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\Profile.php(24): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 08:56:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\profile.php on line 35.
+ 1 APPPATH\Views\profile.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\profile.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\Profile.php(24): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 09:39:31 --> Undefined index: course
+in APPPATH\Views\courses.php on line 52.
+ 1 APPPATH\Views\courses.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: course', 'APPPATH\\Views\\courses.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\courses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('courses', [], true)
+ 5 APPPATH\Controllers\Courses.php(21): view('courses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Courses->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 09:42:23 --> syntax error, unexpected 'foreach' (T_FOREACH)
+in APPPATH\Views\courses.php on line 47.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('courses', [], true)
+ 3 APPPATH\Controllers\Courses.php(21): view('courses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Courses->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 10:52:54 --> Undefined variable: result
+in APPPATH\Views\admin\courses_read.php on line 57.
+ 1 APPPATH\Views\admin\courses_read.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: result', 'APPPATH\\Views\\admin\\courses_read.php', 57, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\courses_read.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/courses_read', [], true)
+ 5 APPPATH\Controllers\Courses.php(31): view('admin/courses_read', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Courses->indexAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 19:12:44 --> Too few arguments to function App\Controllers\Courses::change(), 0 passed in C:\xampp\htdocs\CodeIgniter\uas\vendor\codeigniter4\framework\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Courses.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Courses->change()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 19:18:23 --> syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Views\admin\courses_update.php on line 51.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/courses_update', [], true)
+ 3 APPPATH\Controllers\Courses.php(75): view('admin/courses_update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Courses->update('8')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 19:18:27 --> syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Views\admin\courses_update.php on line 51.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/courses_update', [], true)
+ 3 APPPATH\Controllers\Courses.php(75): view('admin/courses_update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Courses->update('8')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 21:13:04 --> Undefined property: App\Controllers\ThankYou::$usermodel
+in APPPATH\Controllers\ThankYou.php on line 31.
+ 1 APPPATH\Controllers\ThankYou.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\ThankYou::$usermodel', 'APPPATH\\Controllers\\ThankYou.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\ThankYou->exportPDF('2')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ThankYou))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 21:24:13 --> Class declarations may not be nested
+in APPPATH\Controllers\ThankYou.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-06-14 21:30:55 --> fopen(): remote host file access not supported, file://detail_pendaftaran.pdf
+in VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php on line 1842.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(): remote host file access not supported, file://detail_pendaftaran.pdf', 'VENDORPATH\\tecnickcom\\tcpdf\\include\\tcpdf_static.php', 1842, [...])
+ 2 VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php(1842): fopen('file://detail_pendaftaran.pdf', 'wb')
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(7749): TCPDF_STATIC::fopenLocal('file://detail_pendaftaran.pdf', 'wb')
+ 4 APPPATH\Controllers\ThankYou.php(51): TCPDF->Output('detail_pendaftaran.pdf', 'F')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\ThankYou->exportPDF('6')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ThankYou))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 23:14:06 --> Invalid file: admin/pesan_detail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pesan_detail.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pesan_detail', [], true)
+ 3 APPPATH\Controllers\Contact.php(58): view('admin/pesan_detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Contact->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-14 23:22:57 --> Column 'email' cannot be null
+CRITICAL - 2022-06-14 23:22:57 --> Column 'email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `contact_us` (`email`, `subject`, `pesan`) VALUES (NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `contact_us` (`email`, `subject`, `pesan`) VALUES (NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `contact_us` (`email`, `subject`, `pesan`) VALUES (NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contact_us` (`email`, `subject`, `pesan`) VALUES (:email:, :subject:, :pesan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\PesanModel.php(29): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Contact.php(29): App\Models\PesanModel->savePesan([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Contact->insert()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-14 23:23:42 --> Invalid file: admin/pesan_detail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pesan_detail.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pesan_detail', [], true)
+ 3 APPPATH\Controllers\Contact.php(58): view('admin/pesan_detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Contact->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

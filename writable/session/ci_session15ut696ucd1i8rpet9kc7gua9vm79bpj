@@ -1,0 +1,12 @@
+__ci_last_regenerate|i:1765270600;_ci_previous_url|s:46:"http://localhost:8080/index.php/register/index";id_user|s:5:"12345";name|s:4:"Adit";logged_in|b:1;error|s:341:"<!-- DEBUG-VIEW START 1 SYSTEMPATH\Validation\Views\list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>no_ruang Harus diisi</li>
+					<li>tanggal Harus diisi</li>
+					<li>waktu_mulai Harus diisi</li>
+					<li>waktu_selesai Harus diisi</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH\Validation\Views\list.php -->
+";__ci_vars|a:3:{s:5:"error";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:1:{s:8:"register";s:0:"";}}_ci_validation_errors|s:194:"a:4:{s:8:"no_ruang";s:20:"no_ruang Harus diisi";s:7:"tanggal";s:19:"tanggal Harus diisi";s:11:"waktu_mulai";s:23:"waktu_mulai Harus diisi";s:13:"waktu_selesai";s:25:"waktu_selesai Harus diisi";}";

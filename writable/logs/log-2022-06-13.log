@@ -1,0 +1,13 @@
+CRITICAL - 2022-06-13 23:34:38 --> include(connectdb.php): failed to open stream: No such file or directory
+in APPPATH\Views\register.php on line 5.
+ 1 APPPATH\Views\register.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(connectdb.php): failed to open stream: No such file or directory', 'APPPATH\\Views\\register.php', 5, [])
+ 2 APPPATH\Views\register.php(5): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\register.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('register', [], true)
+ 6 APPPATH\Controllers\Register.php(17): view('register')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
